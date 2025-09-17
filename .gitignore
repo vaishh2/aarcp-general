@@ -1,0 +1,25 @@
+# === Java / Spring Boot ===
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+.idea/
+*.log
+
+# === Maven Wrapper logs ===
+.mvn/wrapper/maven-wrapper.jar
+
+# === React / Node.js ===
+node_modules/
+build/
+dist/
+*.env
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# === OS / Editor files ===
+.DS_Store
+Thumbs.db
