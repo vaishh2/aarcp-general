@@ -1,0 +1,30 @@
+# -------------------------
+# application.properties.example
+# -------------------------
+# This is a template. DO NOT put real secrets here.
+# Copy this file to application.properties locally and fill in real values,
+# or set the corresponding environment variables (recommended).
+
+# ========= OpenRouter / OpenHoodle (AI) API key =========
+# The app will read OPENROUTER_API_KEY from environment or application.properties.
+# Example: openrouter.api.key=${OPENROUTER_API_KEY}
+openrouter.api.key=
+
+# ========= Google Document AI / DocumentAI settings =========
+# If you use Document AI, set your project id, location and processor id.
+# If you provide credentials as a JSON file, put the path here (but do NOT commit the JSON).
+documentai.project-id=
+documentai.location=
+documentai.processor-id=
+# Either provide a path to a local JSON creds file OR set the entire JSON in an env var
+# documentai.credentials=/path/to/credentials.json
+
+# ========= Application server (optional) =========
+# Default port (you can override the default Spring Boot port)
+server.port=8081
+
+# ========= Any other properties your app uses =========
+# Add names of other properties your app reads, e.g. DB, storage, etc.
+# db.url=
+# db.username=
+# db.password=
